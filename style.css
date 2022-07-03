@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: beige;
+    padding: 8px 25px;
+    transition: all;
+}
+.navbar ul li a:hover{
+    background-color: beige;
+    color: lightslategray;
+    box-shadow: 0 0 10px;
+}
+
+*/home Section*/
