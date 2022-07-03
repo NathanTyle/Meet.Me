@@ -34,7 +34,27 @@
 .navbar ul li a:hover{
     background-color: beige;
     color: lightslategray;
-    box-shadow: 0 0 10px;
+    box-shadow: 0px 0px 10px;
 }
 
 */home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#home ::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url('Me.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 800px;
+    z-index: -1;
+    opacity: .3;
+}
