@@ -1,25 +1,84 @@
 <!DOCTYPE html>
 <html lan ="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meet Tyler</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <div class="main">
             <h1 class="headings">Nice to meet you <br> I am <br> Tyler Charro</h1>
+            <button class="btn">
+                Reach Out
+            </button>
             </div>
+       </section>
+
+       <section id="about">
+        <h1 class="headings">About Me</h1>
+            <div id="pic">
+            <img src="Me.jpg" alt="">
+            <div id="intro">
+                <h2>Tyler Charro</h2>
+                <p>Hey there, I'm Tyler an aspiring Web Developer. looking for new experiences and furthering my knowledge of the technological world.</p>
+            </div>
+        </div>
+       </section>
+
+       <section id="work">
+        <h1 class="headings">Work</h1>
+        <div class="gallery">
+            <img src="iphone.jpg" alt="">
+            <img src="Laptop.jpg" alt="">
+            <img src="board.jpg" alt="">
+            <img src="Coding.jpg" alt="">
+            <img src="Notice.jpg" alt="">
+            <img src="Business.jpeg" alt="">
+        </div>
+       </section>
+
+       <section id="services">
+        <h1 class="headings">Services</h1>
+        <div class="row">
+            <div class="box">
+            <img src="WebDesign.png" alt="">
+            <h1 class="headings">Website Design</h1>
+            <p>Services I'll be learning to provide</p>
+        </div>
+        <div class="box">
+            <img src="UX.png" alt="">
+            <h1 class="headings">UX/UI Design</h1>
+            <p>Services I'll be learning to provide</p>
+        </div>
+        <div class="box">
+            <img src="Shout.png" alt="">
+            <h1 class="headings">Digital Marketing</h1>
+            <p>Services I'll be learning to provide</p>
+        </div>
+
+    </div>
+       </section>
+
+       <section id="contact">
+        <h1 class="headings">Contact Me</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Name Here">
+            <input type="email" name="email" class="input" placeholder="Enter Email Here">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Message Here"></textarea>
+            <input type="submit" value="Send" id="send">
+        </form>
        </section>
 </body>
 </html>
