@@ -104,8 +104,17 @@ html{
     width: 100%;
     margin-bottom: 50px;
 }
+.Me{
+    background-image: url("./img/Me.jpg");
+    background-size: cover;
+    width: 475px;
+    height: 510px;
+    /* min-height: 150px;
+    min-width: 150; */
+}
 #pic{
     display: flex;
+    flex-wrap: wrap;
 }
 #pic img{
     width: 475px;
