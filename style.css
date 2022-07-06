@@ -181,7 +181,7 @@ transition: 1s ease
 .box:hover{
     background-position: left bottom;
     color: beige;
-    border: none;
+    border: 1px solid beige;
     box-shadow: 0 0 20px lightslategrey;
     -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
